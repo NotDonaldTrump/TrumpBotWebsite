@@ -1,0 +1,36 @@
+1586935687
+a:2:{s:7:"content";s:1561:"<h1>Here you will find the full command set for Trump Bot</h1>
+<h3>General Commands</h3>
+<p>===
+!8ball - 8Ball simulator.... <br>
+!Announce - admin - Announces stating its an announcement.<br>
+!Ban &lt;@user&gt; - admin - Bans a user.
+!cusannounce - admin - Announces without stating its an announcement.
+!dice - Rolls a 6 sided dice.
+!info - TrumpBot Info
+!invite - Invite link for TrumpBot!
+!kick &lt;@user&gt; - admin - Kicks a user.
+!kmn - Kills you.
+!lock &lt;time(d, h, s) - admin - Locks text channel, !! WIP/NOT WORKING !! CURRENTLY DISABLED
+!mute &lt;@user&gt; - admin - Muts the user.
+!myavatar - Send your avatar to the channel.
+!myinfo - Send you your account information to the text channel.
+!nudes - ......
+!number - Random number between 0 and 100000!
+!ping - Pings TrumpBot.
+!purge &lt;number 1-100&gt; - admin - Purges a set amount of messages.
+!say - admin - Makes TrumpBot say the selected message.
+!server - Send server info, eg user count.
+!uptime - Send TrumpBot uptime.
+!warn &lt;@user&gt; - admin - Sends Dm to user with a warning from your server and who issued it.
+Radio Commands:
+!play (song) - Plays your chosen song and asks to confirm it with a number corresponding to a list provided.
+!skip - Skips the current playing song.
+!stop - Stops playing music.
+!pause - Pauses the music
+!resume - Resumes music if it was previously paused.
+!volume - Allows user to set volume from 1-5
+!np - Outputs to channel what is currently being played
+!queue - shows the queue
+More to come!
+Join the support server for further information here!</p>";s:12:"content_meta";N;}

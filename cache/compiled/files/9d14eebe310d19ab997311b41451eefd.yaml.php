@@ -1,0 +1,50 @@
+<?php
+return [
+    '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
+    'filename' => 'C:/xampp/htdocs/trumpbot.xyz/user/accounts/root.yaml',
+    'modified' => 1586328848,
+    'data' => [
+        'state' => 'enabled',
+        'email' => 'djrparton@gmail.com',
+        'fullname' => 'Dylan Parton',
+        'title' => 'Owner',
+        'access' => [
+            'admin' => [
+                'super' => 'true',
+                'login' => 'true',
+                'cache' => 'true',
+                'configuration' => 'true',
+                'configuration_system' => 'true',
+                'configuration_site' => 'true',
+                'configuration_media' => 'true',
+                'configuration_info' => 'true',
+                'settings' => 'true',
+                'pages' => 'true',
+                'maintenance' => 'true',
+                'statistics' => 'true',
+                'plugins' => 'true',
+                'themes' => 'true',
+                'tools' => 'true',
+                'users' => 'true'
+            ],
+            'site' => [
+                'login' => 'true'
+            ]
+        ],
+        'hashed_password' => '$2y$10$9BSyLNECr4ZMJf/9.EPcwOcafCA2OsS/WN6f8SxEeFnOeoU6vzuQS',
+        'password' => NULL,
+        'language' => 'en',
+        'twofa_enabled' => true,
+        'twofa_secret' => '44VYRIJB44HQRMPS7RKL5LEKNH2MQEIY',
+        'avatar' => [
+            'user/accounts/avatars/L9h7NpuandDbG2q.png' => [
+                'name' => 'L9h7NpuandDbG2q.png',
+                'type' => 'image/png',
+                'size' => 1683047,
+                'path' => 'user/accounts/avatars/L9h7NpuandDbG2q.png'
+            ]
+        ],
+        'info' => NULL,
+        'groups' => NULL
+    ]
+];
