@@ -286,7 +286,7 @@ class Route
             $url .= '?' . $this->getUriQuery();
         }
 
-        return rtrim($url,'/');
+        return $url;
     }
 
     /**
@@ -344,8 +344,9 @@ class Route
             $parts[] = $this->language;
         }
 
-        $parts[] = $this->extension ? $this->route . '.' . $this->extension : $this->route;
-
+        if ($this->route !== '') {
+            $parts[] = $this->extension ? $this->route . '.' . $this->extension : $this->route;
+        }
 
         if ($this->gravParams) {
             $parts[] = RouteFactory::buildParams($this->gravParams);

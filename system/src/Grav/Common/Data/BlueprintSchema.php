@@ -232,19 +232,8 @@ class BlueprintSchema extends BlueprintSchemaBase implements ExportInterface
                 continue;
             }
             if (is_array($value)) {
-                // Special toggle handling for all the nested data.
-                $toggle = $toggles[$key] ?? [];
-                if (!is_array($toggle)) {
-                    if (!$toggle) {
-                        $data[$key] = null;
-
-                        continue;
-                    }
-
-                    $toggle = [];
-                }
                 // Recursively fetch the items.
-                $data[$key] = $this->processFormRecursive($data[$key] ?? null, $toggle, $value);
+                $data[$key] = $this->processFormRecursive($data[$key] ?? null, $toggles[$key] ?? [], $value);
             } else {
                 $field = $this->get($value);
                 // Do not add the field if:
